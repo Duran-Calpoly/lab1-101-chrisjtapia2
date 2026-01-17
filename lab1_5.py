@@ -1,9 +1,9 @@
 def check_multiple(number):
     return number % 3 == 0 and number % 5 == 0
 
-def check_password(input_string):
+def check_password(input):
     secret_word = "Python123" 
-    if input_string == secret_word:
+    if input == secret_word:
         return "access granted"
     else:
         return "access denied"
